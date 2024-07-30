@@ -2,5 +2,7 @@
 interface Homework {
   // ? 声明属性为可选属性
   // | 声明属性类型允许为多种类型
-  id?: number | string | null
+  id?: number | string | null //id为Homework类型必选提供的属性
+  name?: string
+  createTime?: string
 }
