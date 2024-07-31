@@ -2,7 +2,17 @@
 interface Homework {
   // ? 声明属性为可选属性
   // | 声明属性类型允许为多种类型
-  id?: number | string | null //id为Homework类型必选提供的属性
+  id: number
   name?: string
   createTime?: string
+}
+const homework: Homework = { id: 12323 }
+//声明在独立的类型文件中，export供外界使用
+export interface User {
+  id?: number
+  name?: string
+  address?: string
+  insertTime?: string
+  sex?: string
+  homeWork?: Homework[]
 }

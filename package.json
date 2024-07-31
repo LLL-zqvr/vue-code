@@ -1,4 +1,7 @@
 {
+  "ts-node": {
+    "esm": true
+  },
   "name": "vue-code",
   "version": "0.0.0",
   "private": true,

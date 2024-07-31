@@ -1,5 +1,20 @@
 {
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    },
+    "transpileOnly": true,
+    "files": true,
+    "include": ["src/**/*.ts"]
+  },
   "files": [],
+
   "references": [
     {
       "path": "./tsconfig.node.json"
