@@ -1,7 +1,7 @@
 #### 如何运行ts文件
 
-1. 先将ts文件编译成js文件（注：路径要写对）: tsc .\src\views\test\test.ts
-2. 运行js文件（注：路径同样要写对）: node .\src\views\test\test.js
+1. 先将ts文件编译成js文件（注：路径要写对）: tsc .\src\views\typescript-practice\practice2-class.ts
+2. 运行js文件（注：路径同样要写对）: node .\src\views\typescript-practice\practice2-class.js
 
 #### ts中的数据类型（注：ts和js里面都没有整数类型）
 
@@ -135,6 +135,20 @@ function function_name():return_type {
 return value;
 }
 另：如果定义了参数则必须要传入参数，不然必须要将参数设为可选
+
+#### ts中的类
+
+1. TypeScript 是面向对象的 JavaScript。
+
+2. 类描述了所创建的对象共同的属性和方法。
+
+3. TypeScript 支持面向对象的所有特性，比如 类、接口等。
+
+4. TypeScript 类定义方式如下：
+
+class class_name {
+// 类作用域
+}
 
 #### TypeScript 接口
 
