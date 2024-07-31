@@ -103,6 +103,29 @@ alert("Hello Runoob");
 
 2. 当一个函数永不返回时（或者总是抛出错误），它的返回值为 never 类型。void 类型可以被赋值（在 strictNullChecking 为 false 时），但是除了 never 本身以外，其他任何类型不能赋值给 never。
 
+#### ts的map对象
+
+1. TypeScript 使用 Map 类型和 new 关键字来创建 Map：
+   let myMap = new Map();
+
+2. 初始化 Map，可以以数组的格式来传入键值对：
+   let myMap = new Map([
+   ["key1", "value1"],
+   ["key2", "value2"]
+   ]);
+
+3. Map 相关的函数与属性：
+
+4. map.clear() – 移除 Map 对象的所有键/值对 。
+5. map.set() – 设置键值对，返回该 Map 对象。
+6. map.get() – 返回键对应的值，如果不存在，则返回 undefined。
+7. map.has() – 返回一个布尔值，用于判断 Map 中是否包含键对应的值。
+8. map.delete() – 删除 Map 中的元素，删除成功返回 true，失败返回 false。
+9. map.size – 返回 Map 对象键/值对的数量。
+10. map.keys() - 返回一个 Iterator 对象， 包含了 Map 对象中每个元素的键 。
+11. map.values() – 返回一个新的Iterator对象，包含了Map对象中每个元素的值 。
+12. map.entries() – 返回一个包含 Map 中所有键值对的迭代器 。
+
 #### ts的变量
 
 1. TypeScript 变量的命名规则：
