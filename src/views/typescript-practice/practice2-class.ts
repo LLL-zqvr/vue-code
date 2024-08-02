@@ -1,8 +1,8 @@
 class Student {
   //字段名
-  name: string
+  name?: string
   //构造函数
-  constructor(name: string) {
+  constructor(name?: string) {
     this.name = name
   }
   //方法
