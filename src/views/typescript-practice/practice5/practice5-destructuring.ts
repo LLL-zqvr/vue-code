@@ -1,6 +1,6 @@
 //若只有类型时，类型前用的是type进行声明,此时的type在括号外；
 
-import type { User } from '../practice10/practice10-interface'
+import type { User } from '../practice6/practice6-interface'
 
 //但是若引用的又有函数又有类型，则type要写在{}里面的对应类型中，如：
 //(一个例子，乱写的)
