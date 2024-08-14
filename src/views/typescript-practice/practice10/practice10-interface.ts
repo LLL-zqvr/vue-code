@@ -22,7 +22,7 @@ interface Address {
 //断言能不用尽量不用
 const address = { id: 12, sdf: 'sadf' } as Address
 // address.sdf是错误的
-//声明在独立的类型文件中，export供外界使用
+//声明在独立的类型文件中，export供外界使用,若是公有的接口等则一定要加上export暴露出去
 export interface User {
   id?: number
   name?: string
@@ -32,3 +32,6 @@ export interface User {
   sex?: string
   homeWork?: Homework[]
 }
+const user: User = {}
+//同时也可以暴露对象
+export default { user, address }
