@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "vue": "^3.4.29",
+    "vue-code": "file:",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
